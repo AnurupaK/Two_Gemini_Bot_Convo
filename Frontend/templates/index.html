@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini_Bot_convo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="mobile">
+        <div class="topDisplay display"><img src="/static/topLogo.png" alt="Gemini logo"></div>
+        <div class="screen">
+
+        </div>
+        <div class="bottomDisplay display">
+            <div class="gemo robot">🐧Gemo
+                <div id="gemo_drop" class="drop">
+                    <a href="#" data-prompt="You are a student named Sarah">You are a student</a>
+                    <a href="#" data-prompt="You are a good son">You are a son</a>
+                    <a href="#" data-prompt="You are the Gemini model of Google">You are Gemini</a>
+                    <a href="#" data-prompt="You are Elon Musk">You are Elon Musk</a>
+                    <a href="#" data-prompt="You are the Albert Einstein">You are the Albert Einstein</a>
+                    <a href="#" data-prompt="You are Doraemon">You are Doraemon</a>
+                </div>
+            </div>
+            <div class="gemi robot">🐥Gemi
+                <div id="gemi_drop" class="drop">
+                    <a href="#" data-prompt="You are a teacher named Mr.Thomas">You are a teacher</a>
+                    <a href="#" data-prompt="You are a lovely mother">You are a lovely mother</a>
+                    <a href="#" data-prompt="You are the ChatGPT of OpenAI">You are ChatGPT</a>
+                    <a href="#" data-prompt="You are Mark Zuckerberg">You are Mark Zuckerberg</a>
+                    <a href="#" data-prompt="You are the Isaac Newton">You are the Isaac Newton</a>
+                    <a href="#" data-prompt="You are Nobita">You are Nobita</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
